@@ -1,0 +1,91 @@
+body{
+    font-family: 'Open Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+.navbar{
+    height :5rem;
+    background-color: white;
+}
+
+.nav-link{
+    color : black !important;
+    font-size: 2rem;
+}
+
+.fa-compass{
+    color:#fe424d;
+    font-size: 2rem;
+}
+
+.footer-info{
+    height:5rem;
+    background-color: #ebebeb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    flex-wrap: wrap;
+}
+.footer-info-socials{
+    width:100%;
+}
+
+.footer-info-socials i{
+    margin-right: 1rem;
+}
+
+.footer-info-link{
+width:100%;
+}
+
+.footer-info-link a{
+    text-decoration: none;
+    color: black;
+}
+.footer-info-link a:hover{
+    text-decoration: underline;
+}
+/* cards */
+.card{
+  border : none !important;
+   
+}
+
+.card-img-top{
+    border-radius: 1rem;
+}
+
+.removeUnderline{
+    text-decoration: none;
+
+}
+
+.card-img-overlay:hover{
+    opacity:0.2;
+    background-color: white;
+}
+
+.changeColor{
+    background-color: #fe424d !important
+}
+.btns{
+    display: flex ;
+}
+
+.show-img{
+    height: 30vh;
+}
+
+.none{
+    list-style: none;
+}
+.review{
+    border : 2px solid black !important;
+    margin-right: 1rem;
+}

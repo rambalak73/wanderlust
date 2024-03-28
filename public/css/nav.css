@@ -1,0 +1,43 @@
+#filters{
+    display : flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 1rem;
+    
+  }
+  .filter{
+    margin-right: 2rem;
+    margin-top: 2rem;
+    opacity: 0.6;
+  }
+  .filter:hover{
+    opacity:1;
+    cursor: pointer;
+  }
+  .filter p{
+    font-size: small;
+  }
+  .info-tax{
+    display:none;
+  }
+  .toggle{
+    border: 1px solid black;
+    height :3.25rem;
+    border-radius: 7px;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+.search-icon{
+    display: flex;
+   align-items: center;
+   justify-content:space-around;
+}
+
+.search{
+    margin-left: 25rem;
+}
+.search-icon:hover{
+    color:red !important;
+}
