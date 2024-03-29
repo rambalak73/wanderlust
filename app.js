@@ -74,7 +74,7 @@ app.use((req,res,next)=>{
 });
 
 
-app.use('/listing',listing)
+app.use('/listing',listing);
 app.use('/listing/:id/review',reviews);
 app.use('/', UserRouter);
 
